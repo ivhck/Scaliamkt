@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scalia - Professional Agency & Marketing Solutions">
+    <meta name="theme-color" content="#703bbd">
+    <title>Scalia | Professional Agency & Marketing Solutions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-wrapper">
+                <div class="top-bar-info">
+                    <span class="top-bar-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@scaliamkt.com">info@scaliamkt.com</a>
+                    </span>
+                    <span class="top-bar-divider">|</span>
+                    <span class="top-bar-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Lunes a Viernes de 9:00 a 18:00</span>
+                    </span>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/Scalia_logo.png" alt="Scalia Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="btn btn-primary btn-sm" href="#contact">Contactar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row align-items-center hero-wrapper">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-spacing"></div>
+                    <h1 class="hero-title">
+                        <span class="hero-typing-text"></span>
+                        <br>
+                        <span class="hero-accent">Transformamos Visiones en Resultados</span>
+                    </h1>
+                    <p class="hero-description">Obten una visión clara de tu presencia online con una consultoría de
+                        diagnóstico personalizada. Trabajamos con empresas como la tuya para lograr resultados medibles.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-lg" onclick="scrollToContact()">
+                            <span>SOLICITAR AUDITORÍA</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-media">
+                    <div class="hero-image-wrapper">
+                        <img src="images/Hero_marketers.png" alt="Marketing consultant professional" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration hero-decoration-left"></div>
+        <div class="hero-decoration hero-decoration-right"></div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="hero-section">
+        <div class="hero-image">
+            <img src="images/Techp.png" alt="Scalia Technology" class="hero-image-content">
+        </div>
+        <div class="hero-content">
+            <span class="eyebrow">¿POR QUÉ SCALIA?</span>
+            <h1 class="title">Marketing Inteligente que Genera Resultados</h1>
+            <p class="description">
+                Potenciamos tu estrategia humana e Inteligencia Artificial para hacer crecer tu negocio. Ofrecemos una
+                solución 360° que cubre cada etapa de tu éxito, desde el diagnóstico inicial hasta la ejecución y
+                optimización continua.
+            </p>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>Estrategia + IA</h3>
+                    <p>Diagnóstico inteligente y hoja de ruta clara para tu crecimiento digital.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Performance Digital</h3>
+                    <p>Campañas enfocadas en ventas reales y leads calificados que crecen tu negocio.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Branding & Web</h3>
+                    <p>Identidad visual memorable y sitios optimizados para convertir visitantes en clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Stats -->
+    <section class="client-stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>2,580+</h3>
+                <p>Satisfied Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processing Section -->
+    <section class="processing">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">NUESTRO PROCESO</p>
+                <h2>Tu camino al éxito con Scalia</h2>
+                <p>Pasar de una visión a resultados medibles es sencillo. Nuestra metodología está diseñada para
+                    integrarnos a tu equipo con agilidad y precisión:</p>
+            </div>
+            <div class="process-flow-diagram">
+                <svg class="process-curve" viewBox="0 0 1200 200" preserveAspectRatio="none">
+                    <path d="M 60 100 Q 240 40, 420 100 T 780 100 T 1140 100" fill="none" stroke="url(#curveGradient)"
+                        stroke-width="3" stroke-dasharray="10,10" />
+                    <defs>
+                        <linearGradient id="curveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#00b1bf;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00b1bf;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <!-- Step 1 -->
+                <div class="process-step">
+                    <div class="step-badge">01</div>
+                    <div class="step-circle-large">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Contacto</h4>
+                    <p>Iniciamos con una breve charla para conocer los retos y objetivos de tu negocio.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="process-step">
+                    <div class="step-badge">02</div>
+                    <div class="step-circle-large">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h4>Auditoría</h4>
+                    <p>Analizamos tu situación actual (IA + Estrategia) para identificar fugas y oportunidades de
+                        crecimiento.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="process-step">
+                    <div class="step-badge">03</div>
+                    <div class="step-circle-large">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Propuesta</h4>
+                    <p>Presentamos un plan táctico a medida, enfocado 100% en la rentabilidad y escalabilidad de tu
+                        marca.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="process-step">
+                    <div class="step-badge">04</div>
+                    <div class="step-circle-large">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4>Aprobación y Arranque</h4>
+                    <p>Validamos la estrategia, alineamos expectativas y ponemos en marcha toda nuestra maquinaria
+                        operativa.</p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="process-step">
+                    <div class="step-badge">05</div>
+                    <div class="step-circle-large">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Seguimiento y Optimización</h4>
+                    <p>No solo ejecutamos; medimos y ajustamos constantemente según la evolución de tu proyecto para
+                        asegurar resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">NUESTROS SERVICIOS</p>
+                <h2>Soluciones Integrales de Marketing Digital y Negocios</h2>
+                <p>En Scalia ofrecemos un ecosistema completo de servicios diseñados para impulsar el crecimiento de tu
+                    empresa en el entorno digital.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>ESTRATEGIA</h3>
+                    <p>El cerebro de tu crecimiento. Diseñamos la hoja de ruta integral y el diagnóstico necesario para
+                        asegurar que cada acción de marketing tenga un objetivo claro y rentable.</p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>CAMPAÑAS</h3>
+                    <p>Motor de ventas y captación. Ejecutamos pautas publicitarias inteligentes y segmentadas (Google,
+                        Meta, etc.) enfocadas en generar leads calificados y conversiones reales.</p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>BRANDING</h3>
+                    <p>Construcción de marcas memorables. Creamos desde el nombre hasta la identidad visual, asegurando
+                        que tu empresa proyecte profesionalismo y conecte emocionalmente con su audiencia.</p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>DESARROLLO WEB</h3>
+                    <p>Tu sucursal digital 24/7. Diseñamos y desarrollamos sitios web y landing pages optimizadas para
+                        convertir visitantes en clientes, priorizando la velocidad y la experiencia de usuario.</p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>CONSULTORÍA Y CAPACITACIÓN</h3>
+                    <p>Transferencia de conocimiento experto. Potenciamos las capacidades de tu equipo in-company a
+                        través de workshops y asesorías estratégicas en ventas, marketing y modelo de negocio.</p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>CONTENIDO MULTIMEDIA</h3>
+                    <p>Narrativas que impactan. Desarrollamos contenido estratégico y piezas audiovisuales diseñadas
+                        específicamente para alimentar tus canales digitales y elevar el rendimiento de tus anuncios.
+                    </p>
+                    <a href="#" class="learn-more">Saber Más →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">POR QUÉ ELEGIRNOS</p>
+                <h2>En Scalia, no solo generamos clics; construimos puentes sólidos</h2>
+                <p>Combinamos la precisión de la IA con un compromiso humano real para asegurar tu crecimiento.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <h4>Visión Comercial 360°</h4>
+                    <p>No solo hacemos marketing; entendemos tu modelo de negocio. Aplicamos estrategia comercial para
+                        que cada campaña esté alineada con tus objetivos de rentabilidad y escala.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h4>Cierre del Ciclo de Venta</h4>
+                    <p>Vamos más allá del lead. Te brindamos la capacitación y herramientas necesarias para que tu
+                        equipo domine el arte de convertir prospectos en clientes finales con éxito.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Compromiso de Socio</h4>
+                    <p>Tu éxito es el nuestro. Nos diferenciamos por un tiempo de respuesta ágil y la cercanía de un
+                        aliado estratégico, no de un proveedor externo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">AGENDA TU AUDITORÍA</p>
+                <h2>Reserva tu sesión de diagnóstico digital</h2>
+                <p>Elige la fecha y hora que mejor se adapte a tu agenda para una sesión de 30 minutos con nuestro
+                    equipo experto.</p>
+            </div>
+            <div class="booking-container">
+                <iframe src="https://tidycal.com/aramontoya/auditoria-digital-scalia" width="100%" height="700"
+                    frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Contacto Rápido</h3>
+                    <div class="footer-details">
+                        <p><strong>Email:</strong><br><a href="mailto:info@scaliamkt.com">info@scaliamkt.com</a></p>
+                        <p><strong>Horario:</strong><br>Lunes a Viernes de 9:00 a 18:00</p>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h3>Enlaces Útiles</h3>
+                    <ul>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#portfolio">Portafolio</a></li>
+                        <li><a href="#">Información Legal</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Nuestros Servicios</h3>
+                    <ul>
+                        <li><a href="#">Estrategia Digital</a></li>
+                        <li><a href="#">Desarrollo Web</a></li>
+                        <li><a href="#">Campañas Marketing</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Consultoría</a></li>
+                        <li><a href="#">Contenido Multimedia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Scalia Marketing. Todos los derechos reservados</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                    <a href="#">Información Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <a href="https://wa.me/1234567890?text=Hola%20Scalia,%20me%20gustaría%20solicitar%20una%20auditoría%20gratuita"
+        target="_blank" class="whatsapp-button" title="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
