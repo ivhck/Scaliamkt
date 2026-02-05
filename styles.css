@@ -1854,7 +1854,7 @@ section {
    Footer
    =========================== */
 .footer {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    background: #000000;
     color: var(--white);
     padding: 4rem 0 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -1881,6 +1881,13 @@ section {
     font-size: 0.9rem;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    display: block;
 }
 
 .footer-info p strong {
