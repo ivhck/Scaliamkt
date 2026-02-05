@@ -57,14 +57,16 @@ function aboutTitleTypeWriter() {
 
     if (!typingText) return;
 
-    // Add cursor span if it doesn't exist
-    if (!typingText.querySelector('.typing-cursor')) {
-        const cursor = document.createElement('span');
-        cursor.className = 'typing-cursor';
-        typingText.parentElement.appendChild(cursor);
-    }
-
-    const cursor = document.querySelector('.about-typing-text').parentElement.querySelector('.typing-cursor');
+    // Create and add cursor element
+    const cursor = document.createElement('span');
+    cursor.className = 'typing-cursor';
+    cursor.style.display = 'inline-block';
+    cursor.style.width = '3px';
+    cursor.style.height = '1em';
+    cursor.style.backgroundColor = 'var(--primary)';
+    cursor.style.marginLeft = '2px';
+    cursor.style.animation = 'blink 0.7s infinite';
+    typingText.parentElement.appendChild(cursor);
 
     let index = 0;
     typingText.textContent = '';
@@ -74,18 +76,10 @@ function aboutTitleTypeWriter() {
             typingText.textContent += fullText.charAt(index);
             index++;
             setTimeout(type, 60);
+        } else {
+            // Keep cursor blinking after typing is complete
+            cursor.style.animation = 'blink 0.7s infinite';
         }
-    }
-
-    // Make cursor blink
-    if (cursor) {
-        cursor.style.animation = 'blink 0.7s infinite';
-        cursor.style.display = 'inline-block';
-        cursor.style.width = '3px';
-        cursor.style.height = '1em';
-        cursor.style.backgroundColor = 'var(--primary)';
-        cursor.style.marginLeft = '2px';
-        cursor.style.verticalAlign = 'middle';
     }
 
     type();
