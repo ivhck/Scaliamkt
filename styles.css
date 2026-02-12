@@ -2086,7 +2086,8 @@ section {
 }
 
 .footer-social .social-icon:hover {
-    background: rgba(255, 255, 255, 0.4);
+    background: var(--primary);
+    color: var(--white);
     transform: translateY(-2px);
 }
 
