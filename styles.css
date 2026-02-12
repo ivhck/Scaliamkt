@@ -790,6 +790,7 @@ section {
     justify-content: flex-end;
     align-items: center;
     flex-shrink: 0;
+    margin-left: -150px;
 }
 
 .hero-image-wrapper {
