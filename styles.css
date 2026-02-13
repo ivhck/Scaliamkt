@@ -724,7 +724,7 @@ section {
 }
 
 .hero-accent {
-    font-size: 0.6em;
+    font-size: 0.75em;
     color: var(--secondary);
     display: block;
     font-style: normal;
