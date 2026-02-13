@@ -57,17 +57,6 @@ function aboutTitleTypeWriter() {
 
     if (!typingText) return;
 
-    // Create and add cursor element
-    const cursor = document.createElement('span');
-    cursor.className = 'typing-cursor';
-    cursor.style.display = 'inline-block';
-    cursor.style.width = '3px';
-    cursor.style.height = '1em';
-    cursor.style.backgroundColor = 'var(--primary)';
-    cursor.style.marginLeft = '2px';
-    cursor.style.animation = 'blink 0.7s infinite';
-    typingText.parentElement.appendChild(cursor);
-
     let index = 0;
     typingText.textContent = '';
 
@@ -76,9 +65,6 @@ function aboutTitleTypeWriter() {
             typingText.textContent += fullText.charAt(index);
             index++;
             setTimeout(type, 60);
-        } else {
-            // Keep cursor blinking after typing is complete
-            cursor.style.animation = 'blink 0.7s infinite';
         }
     }
 
