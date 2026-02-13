@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Scalia Marketing",
+    "image": "https://scaliamkt.com/images/Scalia_logo.png",
+    "description": "Agencia de Marketing Digital especializada en Estrategia, Campañas Publicitarias, Branding y Desarrollo Web",
+    "url": "https://scaliamkt.com",
+    "telephone": "+1234567890",
+    "email": "info@scaliamkt.com",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Your Street Address",
+        "addressLocality": "Your City",
+        "addressRegion": "Your State",
+        "postalCode": "Your Zip Code",
+        "addressCountry": "Your Country"
+    },
+    "priceRange": "$$",
+    "sameAs": [
+        "https://www.facebook.com/profile.php?id=61587019452247",
+        "https://www.instagram.com/scalia.marketing/",
+        "https://www.linkedin.com/company/scalia-marketing/?viewAsMember=true"
+    ],
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "50"
+    }
+}

@@ -1,0 +1,35 @@
+# Scalia Marketing robots.txt file
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: *.css
+Allow: *.js
+
+# Disallow sensitive directories (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://scaliamkt.com/sitemap.xml
+
+# Crawl delay (in seconds)
+Crawl-delay: 1

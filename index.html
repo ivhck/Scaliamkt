@@ -15,6 +15,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Scalia Marketing",
+        "image": "https://scaliamkt.com/images/Scalia_logo.png",
+        "description": "Agencia de Marketing Digital especializada en Estrategia, Campañas Publicitarias, Branding y Desarrollo Web",
+        "url": "https://scaliamkt.com",
+        "telephone": "+1234567890",
+        "email": "info@scaliamkt.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Your City",
+            "addressRegion": "Your State",
+            "postalCode": "Your Zip Code",
+            "addressCountry": "Your Country"
+        },
+        "priceRange": "$$",
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=61587019452247",
+            "https://www.instagram.com/scalia.marketing/",
+            "https://www.linkedin.com/company/scalia-marketing/?viewAsMember=true"
+        ],
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "50"
+        }
+    }
+    </script>
 </head>
 
 <body>
@@ -542,6 +580,8 @@
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Cookie Consent Script -->
+    <script src="cookie-consent.js"></script>
     <!-- Custom Script -->
     <script src="script.js"></script>
 </body>
