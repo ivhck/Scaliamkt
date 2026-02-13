@@ -23,7 +23,7 @@ if (topBar) {
 // Hero Title Typing Animation
 // ===========================
 function heroTitleTypeWriter() {
-    const fullText = "Estrategia Digital para tu Negocio";
+    const fullText = "Deja de adivinar y empieza a Escalar";
     const typingText = document.querySelector('.hero-typing-text');
 
     if (!typingText) return;
